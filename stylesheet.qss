@@ -1,0 +1,21 @@
+* { /*字体*/
+    font-family: Microsoft Yahei;
+}
+
+#info { /*提示文字设置*/
+        color: rgb(225, 30, 10);
+        font-size: 30px;
+}
+
+#button { /*按钮默认时*/
+        color: white; /*按钮文字颜色*/
+        border-image: url(:/res/button.png) 0 267 0 0; /*4个参数分别为“最上、最右、最下、最左”px的像素填充*/
+}
+
+#button:hover { /*按钮悬停时*/
+        border-image: url(:/res/button.png) 0 178 0 89;
+}
+
+#button:pressed { /*按钮按下时*/
+        border-image: url(:/res/button.png) 0 89 0 178;
+}
